@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="503bd66a-017e-47c9-b0d4-cc4a6b8312e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/webapp/static/img/UOC_logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/static/img/UOC_logo_poster.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/static/videos/Ejercicio2-720-conver-pequeño.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/static/videos/Ejercicio2-720.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/static/videos/Ejercicio2.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/static/videos/asset-02-peq2.webm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/bienvenido.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/bienvenido.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -99,5 +94,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/sap" />
+    </ignored-roots>
   </component>
 </project>
