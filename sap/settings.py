@@ -29,6 +29,20 @@ ALLOWED_HOSTS = ['*']
 
 # Application definition
 
+#S3 BUCKETS CONFIG
+
+AWS_ACCESS_KEY_ID = 'AKIAYYH2RHQIUXS62I6W'
+AWS_SECRET_ACCESS_KEY = '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'
+AWS_STORAGE_BUCKET_NAME = 'masterii'
+AWS_S3_FILE_OVERWRITE = False
+AWS_DEFAULT_ACL = None
+DEFAULT_FILE_STORAGE = ''
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+
+
+
+
+
 
 INSTALLED_APPS = [
     'whitenoise.runserver_nostatic',
@@ -39,6 +53,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'webapp',
+    'storages',
+
+
 ]
 
 MIDDLEWARE = [
