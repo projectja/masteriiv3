@@ -4,8 +4,11 @@
 <html lang="en">
 
 <head>
-	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-     <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/core.min.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/image-zoom.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/demo.css' %}">
 </head>
 <body>
 <div class="myWrapper">
@@ -67,7 +70,7 @@
 			<hr>
 			<hr>
 
-		<video id="myVideo"   width="320" height="240"  poster="https://masterii.s3.eu-central-1.amazonaws.com/img/UOC_logo_poster.jpg" preload = "metadata" controls >
+		<video id="myVideo"   width="320" height="240"  poster="https://masterii.s3.eu-central-1.amazonaws.com/img/UOC_logo_poster.jpg" preload = "metadata" controls  >
 			<source id="mp4" src="https://masterii.s3.eu-central-1.amazonaws.com/videos/Ejercicio2.mp4" type="video/mp4">
 		<!--		<source id="webm" src="{% static 'videos/Ejercicio2-720-conver-pequeño.webm' %}"  type="video/webm"> -->
 			<!--	<source id="webm" src="https://fredrickjaxx.is/_assets/video/blossoms.Webm" type="video/webm"> -->
@@ -94,60 +97,62 @@
 		<h1 align="left" >EJERCICIO 2. Streaming de video  </h1>
 
 		<p>	<font size="5" color="#000000"> 2.1. Tipo de Video - MediaInfo </font>
-		<img src="https://masterii.s3.eu-central-1.amazonaws.com/img/PEC2-TAREA2-EJERCICIO-2-1-MEDIAINFO-CAPTURA.png" alt=""  style="border:5px solid black">
+		<img src="https://masterii.s3.eu-central-1.amazonaws.com/img/PEC2-TAREA2-EJERCICIO-2-1-MEDIAINFO-CAPTURA.png" alt=""  style="border:5px solid black" data-zoom-image >
 		</p>
 
 		<p>	<font size="5" color="#000000"> 2.2. Captura Streaming </font>
-		<img src="https://masterii.s3.eu-central-1.amazonaws.com/img/PEC2-TAREA2-EJERCICIO-2-2-CAPTURA-STREAMING.png" alt=""  style="border:5px solid black">
+		<img src="https://masterii.s3.eu-central-1.amazonaws.com/img/PEC2-TAREA2-EJERCICIO-2-2-CAPTURA-STREAMING.png" alt=""  style="border:5px solid black" data-zoom-image >
 		</p>
 
 		<p>	<font size="5" color="#000000"> 2.2 y 2.3. Comparar CODEC emisor/receptor </font>
-		<img src="https://masterii.s3.eu-central-1.amazonaws.com/img/PEC2-TAREA2-EJERCICIO-2-2-Y-2-3-COMPARA-CODECS.png" alt=""  style="border:5px solid black">
+		<img src="https://masterii.s3.eu-central-1.amazonaws.com/img/PEC2-TAREA2-EJERCICIO-2-2-Y-2-3-COMPARA-CODECS.png" alt=""  style="border:5px solid black" data-zoom-image >
 		</p>
 
 		<p>	<font size="5" color="#000000"> 2.2 y 2.3. Comparar ESTADISTICAS emisor/receptor </font>
-		<img src="https://masterii.s3.eu-central-1.amazonaws.com/img/PEC2-TAREA2-EJERCICIO-2-2-Y-2-3-COMPARA-ESTADISTICAS.png" alt=""  style="border:5px solid black">
+		<img src="https://masterii.s3.eu-central-1.amazonaws.com/img/PEC2-TAREA2-EJERCICIO-2-2-Y-2-3-COMPARA-ESTADISTICAS.png" alt=""  style="border:5px solid black" data-zoom-image >
 		</p>
 
 		<p>	<font size="5" color="#000000"> 2.4. Pausa / Reanudar video </font>
 		<p>	<font size="5" color="#000000"> El “delay” tiene lugar porque hay un buffer local que sigue recibiendo iframes y cuando se reanuda la reproducción el comportamiento por defecto sería seguir reproduciendo por donde se dejó.</font>
-		<img src="https://masterii.s3.eu-central-1.amazonaws.com/img/PEC2-TAREA2-EJERCICIO-2-4-TABLA-DELAY.png" alt=""  style="border:5px solid black">
+		<img src="https://masterii.s3.eu-central-1.amazonaws.com/img/PEC2-TAREA2-EJERCICIO-2-4-TABLA-DELAY.png" alt=""  style="border:5px solid black" data-zoom-image >
 		</p>
 
 		<p>	<font size="5" color="#000000"> 2.5. Comprar estadíosticas STREAMING </font>
 		<p>	<font size="5" color="#000000"> Documento incluye explicación detallada </font>
-		<img src="https://masterii.s3.eu-central-1.amazonaws.com/img/PEC2-TAREA2-EJERCICIO-2-5-COMPARAR-ESTADISTICAS.png" alt=""  style="border:5px solid black">
+		<img src="https://masterii.s3.eu-central-1.amazonaws.com/img/PEC2-TAREA2-EJERCICIO-2-5-COMPARAR-ESTADISTICAS.png" alt=""  style="border:5px solid black" data-zoom-image >
 		</p>
 
 		<p>	<font size="5" color="#000000"> 2.5. Comprar tipo de medio / diferente bitrate </font>
 		<p>	<font size="5" color="#000000"> Documento incluye explicación detallada </font>
-		<img src="https://masterii.s3.eu-central-1.amazonaws.com/img/PEC2-TAREA2-EJERCICIO-2-5-COMPARAR-COMPRESION.png" alt=""  style="border:5px solid black">
+		<img src="https://masterii.s3.eu-central-1.amazonaws.com/img/PEC2-TAREA2-EJERCICIO-2-5-COMPARAR-COMPRESION.png" alt=""  style="border:5px solid black" data-zoom-image >
 		</p>
 		<!--	<source id="webm" src="https://fredrickjaxx.is/_assets/video/blossoms.Webm" type="video/webm"> -->
 
 		<p>	<font size="5" color="#000000"> 2.7. Capturas según bit rate - 200kbps </font>
 		<p>	<font size="5" color="#000000"> Documento incluye explicación detallada </font>
-		<img src="https://masterii.s3.eu-central-1.amazonaws.com/img/PEC2-TAREA2-EJERCICIO-2-7-BITRATE-200.png" alt=""  style="border:5px solid black">
+		<img src="https://masterii.s3.eu-central-1.amazonaws.com/img/PEC2-TAREA2-EJERCICIO-2-7-BITRATE-200.png" alt=""  style="border:5px solid black" data-zoom-image >
 		</p>
 		<!--	<source id="webm" src="https://fredrickjaxx.is/_assets/video/blossoms.Webm" type="video/webm"> -->
 
 		<p>	<font size="5" color="#000000"> 2.7. Capturas según bit rate - 500kbps </font>
 		<p>	<font size="5" color="#000000"> Documento incluye explicación detallada </font>
-		<img src="https://masterii.s3.eu-central-1.amazonaws.com/img/PEC2-TAREA2-EJERCICIO-2-7-BITRATE-500.png" alt=""  style="border:5px solid black">
+		<img src="https://masterii.s3.eu-central-1.amazonaws.com/img/PEC2-TAREA2-EJERCICIO-2-7-BITRATE-500.png" alt=""  style="border:5px solid black" data-zoom-image >
 		</p>
 		<!--	<source id="webm" src="https://fredrickjaxx.is/_assets/video/blossoms.Webm" type="video/webm"> -->
 
 		<p>	<font size="5" color="#000000"> 2.7. Capturas según bit rate - 2000kbps </font>
 		<p>	<font size="5" color="#000000"> Documento incluye explicación detallada </font>
-		<img src="https://masterii.s3.eu-central-1.amazonaws.com/img/PEC2-TAREA2-EJERCICIO-2-7-BITRATE-2000.png" alt=""  style="border:5px solid black">
+		<img src="https://masterii.s3.eu-central-1.amazonaws.com/img/PEC2-TAREA2-EJERCICIO-2-7-BITRATE-2000.png" alt=""  style="border:5px solid black" data-zoom-image >
 		</p>
 
 		<p>	<font size="5" color="#000000"> 2.9. Comparación archivos - codificaciones </font>
 		<p>	<font size="5" color="#000000"> Documento incluye explicación detallada </font>
-		<img src="https://masterii.s3.eu-central-1.amazonaws.com/img/PEC2-TAREA2-EJERCICIO-2-9-COMPARACION-ARCHIVOS-CODIFICACIONES.png" alt=""  style="border:5px solid black">
+		<img src="https://masterii.s3.eu-central-1.amazonaws.com/img/PEC2-TAREA2-EJERCICIO-2-9-COMPARACION-ARCHIVOS-CODIFICACIONES.png" alt=""  style="border:5px solid black" data-zoom-image >
 		</p>
 
 		</video>
+		<script src="{% static 'js/image-zoom.js' %}"></script>
+
 
 
 
